@@ -183,7 +183,7 @@ function exibeCartaMaquina(){
   var opcoesTexto = ""
   
    for (var atributo in cartaMaquina.atributos) {
-        opcoesTexto += "<p type='text' name='atributo' value='" + atributo + "'>" + atributo + " " + cartaJogador.atributos[atributo] + "<br>"
+        opcoesTexto += "<p type='text' name='atributo' value='" + atributo + "'>" + atributo + " " + cartaMaquina.atributos[atributo] + "<br>"
     }
     
   var html = "<div id='opcoes' class='carta-status'>"
